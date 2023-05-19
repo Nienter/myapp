@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expression_coding">
+        <item>[微笑]</item>
+        <item>[撇嘴]</item>
+        <item>[色]</item>
+        <item>[发呆]</item>
+        <item>[得意]</item>
+        <item>[流泪]</item>
+        <item>[害羞]</item>
+        <item>[闭嘴]</item>
+        <item>[睡]</item>
+        <item>[大哭]</item>
+        <item>[尴尬]</item>
+        <item>[发怒]</item>
+        <item>[调皮]</item>
+        <item>[呲牙]</item>
+        <item>[惊讶]</item>
+        <item>[难过]</item>
+        <item>[酷]</item>
+        <item>[冷汗]</item>
+        <item>[抓狂]</item>
+        <item>[吐]</item>
+        <item>[偷笑]</item>
+        <item>[愉快]</item>
+        <item>[白眼]</item>
+        <item>[傲慢]</item>
+        <item>[饥饿]</item>
+        <item>[困]</item>
+        <item>[惊恐]</item>
+        <item>[流汗]</item>
+        <item>[憨笑]</item>
+        <item>[大兵]</item>
+        <item>[奋斗]</item>
+        <item>[咒骂]</item>
+        <item>[疑问]</item>
+        <item>[嘘]</item>
+        <item>[晕]</item>
+        <item>[折磨]</item>
+        <item>[衰]</item>
+        <item>[骷髅]</item>
+        <item>[敲打]</item>
+        <item>[再见]</item>
+        <item>[擦汗]</item>
+        <item>[抠鼻]</item>
+        <item>[鼓掌]</item>
+        <item>[糗大了]</item>
+        <item>[坏笑]</item>
+        <item>[左哼哼]</item>
+        <item>[右哼哼]</item>
+        <item>[哈欠]</item>
+        <item>[鄙视]</item>
+        <item>[委屈]</item>
+        <item>[快哭了]</item>
+        <item>[阴险]</item>
+        <item>[亲亲]</item>
+        <item>[吓]</item>
+        <item>[可怜]</item>
+        <item>[菜刀]</item>
+        <item>[西瓜]</item>
+        <item>[啤酒]</item>
+        <item>[篮球]</item>
+        <item>[乒乓]</item>
+        <item>[咖啡]</item>
+        <item>[饭]</item>
+        <item>[猪头]</item>
+        <item>[玫瑰]</item>
+        <item>[凋谢]</item>
+        <item>[示爱]</item>
+        <item>[爱心]</item>
+        <item>[心碎]</item>
+        <item>[蛋糕]</item>
+        <item>[闪电]</item>
+        <item>[炸弹]</item>
+        <item>[刀]</item>
+        <item>[足球]</item>
+        <item>[瓢虫]</item>
+        <item>[便便]</item>
+        <item>[月亮]</item>
+        <item>[太阳]</item>
+        <item>[礼物]</item>
+        <item>[拥抱]</item>
+        <item>[强]</item>
+        <item>[弱]</item>
+        <item>[握手]</item>
+        <item>[胜利]</item>
+        <item>[抱拳]</item>
+        <item>[勾引]</item>
+        <item>[拳头]</item>
+        <item>[差劲]</item>
+        <item>[爱你]</item>
+        <item>[NO]</item>
+        <item>[OK]</item>
+        <item>[爱情]</item>
+        <item>[飞吻]</item>
+        <item>[跳跳]</item>
+        <item>[发抖]</item>
+        <item>[怄火]</item>
+        <item>[转圈]</item>
+        <item>[磕头]</item>
+        <item>[回头]</item>
+        <item>[跳绳]</item>
+        <item>[挥手]</item>
+        <item>[激动]</item>
+        <item>[街舞]</item>
+        <item>[献吻]</item>
+        <item>[左太极]</item>
+        <item>[右太极]</item>
+    </string-array>
+    <array name="fileEndingAudio">
+        <item>.mp3</item>
+        <item>.wav</item>
+        <item>.ogg</item>
+        <item>.midi</item>
+    </array>
+    <array name="fileEndingExcel">
+   	 	<item>.xls</item>
+    	<item>.xlsx</item>
+	</array>
+    <array name="fileEndingImage">
+        <item>.png</item>
+        <item>.gif</item>
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.bmp</item>
+    </array>
+    <array name="fileEndingPPT">
+    	<item>.ppt</item>
+    	<item>.pptx</item>
+	</array>
+    <array name="fileEndingPackage">
+        <item>.jar</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.gz</item>
+        <item>.apk</item>
+        <item>.img</item>
+    </array>
+    <array name="fileEndingPdf">
+    	<item>.pdf</item>
+	</array>
+    <array name="fileEndingText">
+        <item>.txt</item>
+        <item>.java</item>
+        <item>.c</item>
+        <item>.cpp</item>
+        <item>.py</item>
+        <item>.xml</item>
+        <item>.json</item>
+        <item>.log</item>
+    </array>
+    <array name="fileEndingVideo">
+        <item>.mp4</item>
+        <item>.rmvb</item>
+        <item>.avi</item>
+        <item>.flv</item>
+    </array>
+    <array name="fileEndingWebText">
+        <item>.htm</item>
+        <item>.html</item>
+        <item>.php</item>
+        <item>.jsp</item>
+    </array>
+    <array name="fileEndingWord">
+    	<item>.doc</item>
+    	<item>.docx</item>
+	</array>
+    <string-array name="set_avatar">
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="sexes">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <attr format="reference" name="calendarViewStyle"/>
+    <attr format="reference" name="datePickerStyle"/>
+    <attr format="reference" name="numberPickerStyle"/>
+    <attr format="reference" name="timePickerStyle"/>
+    <color name="bg_color">#ffffffff</color>
+    <color name="gray">#7D7D7D</color>
+    <color name="normal_black">#1B1B1B</color>
+    <color name="transparent">#00000000</color>
+    <dimen name="chat_avatar_size">35dp</dimen>
+    <dimen name="chat_contentview_marginleft">5dp</dimen>
+    <dimen name="chat_contentview_margintop">2dp</dimen>
+    <dimen name="chat_item_height">49dp</dimen>
+    <dimen name="chat_message_divider">20dp</dimen>
+    <dimen name="chat_nickname_marginleft">10dp</dimen>
+    <dimen name="chat_nickname_textsize">12sp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="normal_text_size">15sp</dimen>
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_text_min_margin">50dp</dimen>
+    <item name="gridview" type="id"/>
+    <item name="np__decrement" type="id"/>
+    <item name="np__increment" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="add_friend_confirm">对方通过你的信息验证，并加你为好友</string>
+    <string name="add_friend_success">添加好友成功</string>
+    <string name="add_friend_verify_dialog_message">您需要发送验证申请，等对方通过后你才能发送消息，并添加其为好友。</string>
+    <string name="add_friend_verify_dialog_title">对方启用了消息验证</string>
+    <string name="add_you_friend">%1$s添加你为好友</string>
+    <string name="addressbooks_search_friend">搜索好友…</string>
+    <string name="app_name">xbcx_library</string>
+    <string name="apply_add_you_friend">%1$s请求添加你为好友</string>
+    <string name="avatar">头像</string>
+    <string name="back">返回</string>
+    <string name="blacklist_title">黑名单</string>
+    <string name="bottom_load_fail">加载失败</string>
+    <string name="bottom_load_loading">正在加载…</string>
+    <string name="bottom_load_loadmore">加载更多</string>
+    <string name="bottom_load_nomore">没有更多数据</string>
+    <string name="cancel">取消</string>
+    <string name="choose_from_albums">从相册选择</string>
+    <string name="click_look">点击查看</string>
+    <string name="complete">完成</string>
+    <string name="connecting">连接中…</string>
+    <string name="copymessage">复制消息</string>
+    <string name="date_picker_decrement_day_button">Decrement day</string>
+    <string name="date_picker_decrement_month_button">Decrement month</string>
+    <string name="date_picker_decrement_year_button">Decrement year</string>
+    <string name="date_picker_dialog_title">设置日期</string>
+    <string name="date_picker_increment_day_button">Increment day</string>
+    <string name="date_picker_increment_month_button">Increment month</string>
+    <string name="date_picker_increment_year_button">Increment year</string>
+    <string name="dateformat_md">M月d日</string>
+    <string name="dateformat_mdhm">MM月dd日 HH:mm</string>
+    <string name="dateformat_ymd">y年M月d日</string>
+    <string name="delete">删除</string>
+    <string name="delete_friend">删除好友</string>
+    <string name="delete_group">删除群</string>
+    <string name="delete_record">删除记录</string>
+    <string name="deletemessage">删除消息</string>
+    <string name="dialog_msg_forward">是否转发？</string>
+    <string name="dialog_msg_resend">是否重发?</string>
+    <string name="dialogmessage_login_failure">登录失败</string>
+    <string name="dialogmessage_logout">您的帐号已在其它地方登录</string>
+    <string name="dialogmessage_pwd_error">密码错误</string>
+    <string name="disconnect">未连接</string>
+    <string name="edit">编辑</string>
+    <string name="file">文件</string>
+    <string name="file_size">文件大小</string>
+    <string name="forwardmessage">转发消息</string>
+    <string name="friend_verify_msg">验证消息:</string>
+    <string name="friend_verify_notice">好友验证通知</string>
+    <string name="friendask_added">已添加</string>
+    <string name="friendask_apply_add_friend">请求添加你为好友</string>
+    <string name="friendask_nothandled">未处理</string>
+    <string name="friends">好友</string>
+    <string name="group_member">群成员</string>
+    <string name="group_prompt_added_group">加入了群聊</string>
+    <string name="group_prompt_changed_group_name">修改了群名</string>
+    <string name="group_prompt_had">将</string>
+    <string name="group_prompt_invite_you">邀请你</string>
+    <string name="group_prompt_quited_group">%1$s退出了群聊</string>
+    <string name="group_prompt_removed_group">%1$s已解散了群聊</string>
+    <string name="group_prompt_removed_member">移除了群聊</string>
+    <string name="group_prompt_you_been_removed">你已被%1$s移出了群，无法再进行群聊</string>
+    <string name="group_prompt_you_changed_group_name">你修改了群名</string>
+    <string name="group_prompt_you_had">你将</string>
+    <string name="group_prompt_you_invite">你邀请</string>
+    <string name="groups">群组</string>
+    <string name="has_push_message">您有新消息</string>
+    <string name="invite">邀请</string>
+    <string name="load_fail">加载失败</string>
+    <string name="location">位置</string>
+    <string name="logining">正在登录…</string>
+    <string name="message_nonrecognition">该条消息来自新版本，请尽快升级</string>
+    <string name="message_notify_new_message_notify">接受新消息提醒</string>
+    <string name="message_notify_new_message_shake_notify">新消息震动提醒</string>
+    <string name="message_notify_new_message_voice_notify">新消息声音提醒</string>
+    <string name="message_notify_title">消息提醒与通知</string>
+    <string name="more">更多</string>
+    <string name="msg_receive_fail">传输中断，请重试</string>
+    <string name="no">否</string>
+    <string name="no_result_addressbooks">没有好友</string>
+    <string name="no_result_recentchat">没有聊天记录</string>
+    <string name="ok">确定</string>
+    <string name="people">人</string>
+    <string name="photo">照片</string>
+    <string name="photograph">拍照</string>
+    <string name="picture">图片</string>
+    <string name="popup_connect_connecting">正在连接，请稍候......</string>
+    <string name="popup_connect_disconnect">网络不可用，与服务器连接中断</string>
+    <string name="popup_connect_will_connect">正在尝试重新连接......</string>
+    <string name="prompt_record_fail">录音失败,可能没有麦克风</string>
+    <string name="prompt_sdcard_full">储存卡空间已满，语音、头像功能暂时不可用</string>
+    <string name="prompt_sdcard_unavailable">没有发现储存卡，语音、头像功能暂时不可用</string>
+    <string name="pull_refresh">下拉刷新</string>
+    <string name="pull_refresh_last_update">最后更新:</string>
+    <string name="pull_refresh_refreshing">正在刷新…</string>
+    <string name="pull_refresh_release_refresh">松开即可刷新</string>
+    <string name="pull_to_refresh_fail">加载失败，请下拉重试</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新…</string>
+    <string name="pull_to_refresh_release_label">松开即可刷新</string>
+    <string name="quit_group">退出群</string>
+    <string name="receive">接收</string>
+    <string name="receiving">接收中</string>
+    <string name="refresh">刷新</string>
+    <string name="region">地区</string>
+    <string name="region_info">
+        北京:东城|西城|朝阳|丰台|石景山|海淀|门头沟|房山|通州|顺义|昌平|大兴|平谷|怀柔|密云|延庆,
+        天津:和平|河东|河西|南开|河北|红桥|滨海新区|东丽|西青|津南|北辰|宁河|武清|静海|宝坻|蓟县,
+		河北:石家庄|唐山|秦皇岛|邯郸|邢台|保定|张家口|承德|沧州|廊坊|衡水,
+		山西:太原|大同|阳泉|长治|晋城|朔州|晋中|运城|忻州|临汾|吕梁,
+		内蒙古:呼和浩特|包头|乌海|赤峰|通辽|鄂尔多斯|呼伦贝尔|巴彦淖尔|乌兰察布|兴安|锡林郭勒|阿拉善,
+		辽宁:沈阳|大连|鞍山|抚顺|本溪|丹东|锦州|营口|阜新|辽阳|盘锦|铁岭|朝阳|葫芦岛,
+		吉林:长春|吉林|四平|辽源|通化|白山|松原|白城|延边,
+		黑龙江:哈尔滨|齐齐哈尔|鸡西|鹤岗|双鸭山|大庆|伊春|佳木斯|七台河|牡丹江|黑河|绥化|大兴安岭,
+		上海:黄浦|卢湾|徐汇|长宁|静安|普陀|闸北|虹口|杨浦|闵行|宝山|嘉定|浦东新区|金山|松江|奉贤|青浦|崇明,
+		江苏:南京|无锡|徐州|常州|苏州|南通|连云港|淮安|盐城|扬州|镇江|泰州|宿迁,
+		浙江:杭州|宁波|温州|嘉兴|湖州|绍兴|金华|衢州|舟山|台州|丽水,
+		安徽:合肥|芜湖|蚌埠|淮南|马鞍山|淮北|铜陵|安庆|黄山|滁州|阜阳|宿州|巢湖|六安|亳州|池州|宣城,
+		福建:福州|厦门|莆田|三明|泉州|漳州|南平|龙岩|宁德,
+		江西:南昌|景德镇|萍乡|九江|新余|鹰潭|赣州|吉安|宜春|抚州|上饶,
+		山东:济南|青岛|淄博|枣庄|东营|烟台|潍坊|济宁|泰安|威海|日照|莱芜|临沂|德州|聊城|滨州|菏泽,
+		河南:郑州|开封|洛阳|平顶山|安阳|鹤壁|新乡|焦作|濮阳|许昌|漯河|三门峡|南阳|商丘|信阳|周口|驻马店|济源,
+		湖北:武汉|黄石|十堰|宜昌|襄阳|鄂州|荆门|孝感|荆州|黄冈|咸宁|随州|恩施|仙桃|潜江|天门|神农架,
+		湖南:长沙|株洲|湘潭|衡阳|邵阳|岳阳|常德|张家界|益阳|郴州|永州|怀化|娄底|湘西,
+		广东:广州|韶关|深圳|珠海|汕头|佛山|江门|湛江|茂名|肇庆|惠州|梅州|汕尾|河源|阳江|清远|东莞|中山|潮州| 揭 阳|云浮,
+		广西:南宁|柳州|桂林|梧州|北海|防城港|钦州|贵港|玉林|百色|贺州|河池|来宾|崇左,
+		海南:海口|三亚|五指山|琼海|儋州|文昌|万宁|东方|定安|屯昌|澄迈|临高|白沙|昌江|乐东|陵水|保亭|琼中|西 沙|南 沙|中沙,
+		重庆:万州|涪陵|渝中|大渡口|江北|沙坪坝|九龙坡|南岸|北碚|两江新区|万盛|双桥|渝北|巴南|长寿|綦江|潼南|铜 梁| 大足|荣昌|璧山|梁平|城口|丰都|垫江|武隆|忠县|开县|云阳|奉节|巫山|巫溪|黔江|石柱|秀山|酉阳|彭水|江津|合川|永 川|南川,
+		四川:成都|自贡|攀枝花|泸州|德阳|绵阳|广元|遂宁|内江|乐山|南充|眉山|宜宾|广安|达州|雅安|巴中|资阳|阿 坝|甘 孜|凉山,
+		贵州:贵阳|六盘水|遵义|安顺|铜仁|黔西南|毕节|黔东南|黔南,
+		云南:昆明|曲靖|玉溪|保山|昭通|丽江|普洱|临沧|楚雄|红河|文山|西双版纳|大理|德宏|怒江|迪庆,
+		西藏:拉萨|昌都|山南|日喀则|那曲|阿里|林芝,
+		陕西:西安|铜川|宝鸡|咸阳|渭南|延安|汉中|榆林|安康|商洛,
+		甘肃:兰州市|嘉峪关|金昌|白银|天水|武威|张掖|平凉|酒泉|庆阳|定西|陇南|临夏|甘南,
+		青海:西宁|海东|海北|黄南|海南|果洛|玉树|海西,
+		宁夏:银川|石嘴山|吴忠|固原|中卫,
+		新疆:乌鲁木齐|克拉玛依|吐鲁番|哈密|昌吉|博尔塔拉|巴音郭楞|阿克苏|克孜勒苏|喀什|和田|伊犁|塔城|阿勒泰|石河 子| 阿拉尔|图木舒克|五家渠, 
+		台湾:台北市|高雄市|基隆市|台中市|台南市|新竹市|嘉义市|台北县|宜兰县|桃园县|新竹县|苗栗县|台中县|彰化县|南 投 县|云林县|嘉义县|台南县|高雄县|屏东县|台东县|花莲县|澎湖县, 
+		香港:中西区|东区|九龙城区|观塘区|南区|深水埗区|黄大仙区|湾仔区|油尖旺区|离岛区|葵青区|北区|西贡区|沙田区| 屯门 区|大埔区|荃湾区|元朗区, 
+		澳门:花地玛堂区|圣安多尼堂区|大堂区|望德堂区|风顺堂区|氹仔|路环,
+		海外:美国|英国|法国|俄罗斯|加拿大|巴西|澳大利亚|印尼|泰国|马来西亚|新加坡|菲律宾|越南|印度|日本|新西兰|韩 国|德国|意大利|爱尔兰|荷兰|瑞士|乌克兰|南非|芬兰|瑞典|奥地利|西班牙|比利时|挪威|丹麦|波兰|阿根廷|白俄罗斯|哥伦 比亚|古巴|埃及|希腊|匈牙利|伊朗|蒙古|墨西哥|葡萄牙|沙特阿拉伯|土耳其|其它
+	</string>
+    <string name="retry">重试</string>
+    <string name="save">保存</string>
+    <string name="save_fail">保存失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="screen">视频</string>
+    <string name="search">搜索</string>
+    <string name="send">发送</string>
+    <string name="send_message">发送消息</string>
+    <string name="sending">发送中</string>
+    <string name="setup">设置</string>
+    <string name="shoot_video">拍摄视频</string>
+    <string name="statusbar_multi_contact_notify">%1$d个联系人发来%2$d条消息</string>
+    <string name="statusbar_multidiscussionnotify">%1$d个讨论组发来%2$d条消息</string>
+    <string name="statusbar_multigroupnotify">%1$d个群发来%2$d条消息</string>
+    <string name="statusbar_single_contact_multimsg_notify">发来%1$d条消息</string>
+    <string name="statusbar_single_contact_text_notify">%1$s发来一条消息</string>
+    <string name="statusbar_single_contact_voice_notify">%1$s发来一段语音</string>
+    <string name="success">成功</string>
+    <string name="sure">确认</string>
+    <string name="time_picker_decrement_hour_button">Decrement hour</string>
+    <string name="time_picker_decrement_minute_button">Decrement minute</string>
+    <string name="time_picker_decrement_set_am_button">Set AM</string>
+    <string name="time_picker_dialog_title">设置时间</string>
+    <string name="time_picker_increment_hour_button">Increment hour</string>
+    <string name="time_picker_increment_minute_button">Increment minute</string>
+    <string name="time_picker_increment_set_pm_button">Set PM</string>
+    <string name="time_picker_separator">:</string>
+    <string name="toast_add_group_chat_member_fail">添加群组成员失败</string>
+    <string name="toast_audio_record_permission_forbid">录音权限可能被禁用，请在应用管理中打开</string>
+    <string name="toast_cannot_add_friend">对方拒绝被添加为好友</string>
+    <string name="toast_cannot_create_file_on_sdcard">无法访问SD卡</string>
+    <string name="toast_cannot_create_file_on_sdcard_reboot">无法访问SD卡,请强杀应用后重启</string>
+    <string name="toast_cannot_open_file">无法打开!</string>
+    <string name="toast_cannot_send_emoji">不支持自带表情</string>
+    <string name="toast_cannot_send_photo">不支持该格式类型!</string>
+    <string name="toast_choose_pic_max_count">最多选取%1$d张图片</string>
+    <string name="toast_create_group_chat_fail">创建群组失败</string>
+    <string name="toast_delete_friend_fail">删除好友失败</string>
+    <string name="toast_delete_group_fail_by_permission">你没有删除群的权限</string>
+    <string name="toast_disconnect">网络中断!</string>
+    <string name="toast_joinroom_fail_by_max">房间人数已满</string>
+    <string name="toast_no_browser">请安装浏览器</string>
+    <string name="toast_no_camera">没有摄像头!</string>
+    <string name="toast_open_camera_fail">打开相机失败</string>
+    <string name="toast_out_of_memory">内存不足</string>
+    <string name="toast_pass_verify_fail">通过验证失败</string>
+    <string name="toast_pic_is_downloading">图片正在下载</string>
+    <string name="toast_please_fill_full">请填写完整信息</string>
+    <string name="toast_pull_to_refresh_fail">加载失败,当前网络不可用</string>
+    <string name="toast_send_verify_fail">发送验证失败</string>
+    <string name="toast_server_error">获取数据失败</string>
+    <string name="today">今日</string>
+    <string name="video">视频</string>
+    <string name="viewpicture_title">查看图片</string>
+    <string name="voice">语音</string>
+    <string name="yes">是</string>
+    <string name="yesterday">昨日</string>
+    <string name="you">你</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="DatePickerDialog" parent="@android:style/Theme">
+        <item name="android:windowIsFloating">true</item>     
+		<item name="android:windowFrame">@null</item>              
+		<item name="android:windowNoTitle">true</item>        
+		<item name="android:windowBackground">@android:color/transparent</item>  
+		<item name="android:backgroundDimEnabled">true</item> 
+        <item name="calendarViewStyle">@style/Widget.Holo.CalendarView</item>
+        <item name="datePickerStyle">@style/Widget.Holo.DatePicker</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+    </style>
+    <style name="NPWidget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+    <style name="NPWidget.Holo.Light.NumberPicker" parent="NPWidget.Holo.NumberPicker">
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_light</item>
+    </style>
+    <style name="NPWidget.Holo.NumberPicker" parent="NPWidget.NumberPicker">
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/np_numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">2dip</item>
+        <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>
+        <item name="internalMinWidth">64dip</item>
+        <item name="internalMaxHeight">180dip</item>
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark</item>
+    </style>
+    <style name="NPWidget.NumberPicker">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+    </style>
+    <style name="TextAppearance.Holo.CalendarViewWeekDayView" parent="TextAppearance.Small.CalendarViewWeekDayView">
+        <item name="android:textColor">#505050</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.CalendarViewWeekDayView" parent="TextAppearance.Small.CalendarViewWeekDayView">
+    </style>
+    <style name="TextAppearance.Small.CalendarViewWeekDayView" parent="@android:style/TextAppearance.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.Dialog.Alert" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="UnreadMessageCount">
+    	<item name="android:textSize">14sp</item>
+  		<item name="android:textColor">#ffffffff</item>
+  		<item name="android:textStyle">bold</item>
+  		<item name="android:gravity">center</item>
+  		<item name="android:singleLine">true</item>
+  		<item name="android:background">@drawable/background_unreadmessagecount</item>
+    </style>
+    <style name="Widget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+    <style name="Widget.CalendarView">
+        <item name="cv_showWeekNumber">true</item>
+        <item name="cv_firstDayOfWeek">1</item>
+        <item name="cv_minDate">01/01/1900</item>
+        <item name="cv_maxDate">12/31/2100</item>
+        <item name="cv_shownWeekCount">6</item>
+        <item name="cv_selectedWeekBackgroundColor">#330099FF</item>
+        <item name="cv_focusedMonthDateColor">#FFFFFFFF</item>
+        <item name="cv_unfocusedMonthDateColor">#66FFFFFF</item>
+        <item name="cv_weekNumberColor">#33FFFFFF</item>
+        <item name="cv_weekSeparatorLineColor">#19FFFFFF</item>
+        <item name="cv_selectedDateVerticalBar">@drawable/day_picker_week_view_dayline_holo</item>
+        <item name="cv_weekDayTextAppearance">@style/TextAppearance.Small.CalendarViewWeekDayView</item>
+        <item name="cv_dateTextAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="Widget.DatePicker">
+        
+        <item name="dp_calendarViewShown">false</item>
+    </style>
+    <style name="Widget.Holo.CalendarView" parent="Widget.CalendarView">
+        <item name="cv_selectedWeekBackgroundColor">#330099FF</item>
+        <item name="cv_focusedMonthDateColor">#FFFFFFFF</item>
+        <item name="cv_unfocusedMonthDateColor">#66FFFFFF</item>
+        <item name="cv_weekNumberColor">#33FFFFFF</item>
+        <item name="cv_weekSeparatorLineColor">#19FFFFFF</item>
+        <item name="cv_selectedDateVerticalBar">@drawable/day_picker_week_view_dayline_holo</item>
+        <item name="cv_weekDayTextAppearance">@style/TextAppearance.Holo.CalendarViewWeekDayView</item>
+        <item name="cv_dividerHorizontal">@drawable/list_divider_holo_dark</item>
+    </style>
+    <style name="Widget.Holo.DatePicker" parent="Widget.DatePicker">
+        <item name="dp_internalLayout">@layout/date_picker_holo</item>
+        <item name="dp_calendarViewShown">true</item>
+    </style>
+    <style name="Widget.Holo.Light.CalendarView" parent="Widget.CalendarView">
+        <item name="cv_selectedWeekBackgroundColor">#330066ff</item>
+        <item name="cv_focusedMonthDateColor">#FF000000</item>
+        <item name="cv_unfocusedMonthDateColor">#7F08002B</item>
+        <item name="cv_weekNumberColor">#7F080021</item>
+        <item name="cv_weekSeparatorLineColor">#7F08002A</item>
+        <item name="cv_weekDayTextAppearance">@style/TextAppearance.Holo.Light.CalendarViewWeekDayView</item>
+        <item name="cv_dividerHorizontal">@drawable/list_divider_holo_light</item>
+    </style>
+    <style name="Widget.Holo.Light.DatePicker" parent="Widget.Holo.DatePicker">
+    </style>
+    <declare-styleable name="CalendarView">
+        
+        <attr format="integer" name="cv_firstDayOfWeek"/>
+        
+        <attr format="boolean" name="cv_showWeekNumber"/>
+        
+        <attr format="string" name="cv_minDate"/>
+        
+        <attr format="string" name="cv_maxDate"/>
+        
+        <attr format="integer" name="cv_shownWeekCount"/>
+        
+        <attr format="color|reference" name="cv_selectedWeekBackgroundColor"/>
+        
+        <attr format="color|reference" name="cv_focusedMonthDateColor"/>
+        
+        <attr format="color|reference" name="cv_unfocusedMonthDateColor"/>
+        
+        <attr format="color|reference" name="cv_weekNumberColor"/>
+        
+        <attr format="color|reference" name="cv_weekSeparatorLineColor"/>
+        
+        <attr format="reference" name="cv_selectedDateVerticalBar"/>
+        
+        <attr format="reference" name="cv_weekDayTextAppearance"/>
+        
+        <attr format="reference" name="cv_dateTextAppearance"/>
+
+        <attr format="reference" name="cv_dividerHorizontal"/>
+    </declare-styleable>
+    <declare-styleable name="DatePicker">
+        
+        <attr format="integer" name="dp_startYear"/>
+        
+        <attr format="integer" name="dp_endYear"/>
+        
+        <attr format="boolean" name="dp_spinnersShown"/>
+        
+        <attr format="boolean" name="dp_calendarViewShown"/>
+        
+        <attr format="string" name="dp_minDate"/>
+        
+        <attr format="string" name="dp_maxDate"/>
+        
+        <attr format="reference" name="dp_internalLayout"/>
+    </declare-styleable>
+    <declare-styleable name="NumberPicker">
+        
+        <attr format="color|reference" name="solidColor"/>
+        
+        <attr format="reference" name="selectionDivider"/>
+        
+        <attr format="dimension" name="selectionDividerHeight"/>
+        
+        <attr format="dimension" name="selectionDividersDistance"/>
+        
+        <attr format="dimension" name="internalMinHeight"/>
+        
+        <attr format="dimension" name="internalMaxHeight"/>
+        
+        <attr format="dimension" name="internalMinWidth"/>
+        
+        <attr format="dimension" name="internalMaxWidth"/>
+        
+        <attr format="reference" name="internalLayout"/>
+        
+        <attr format="reference" name="virtualButtonPressedDrawable"/>
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+
+        
+        <attr format="reference|color" name="ptrRefreshableViewBackground"/>
+
+        
+        <attr format="reference|color" name="ptrHeaderBackground"/>
+
+        
+        <attr format="reference|color" name="ptrHeaderTextColor"/>
+
+        
+        <attr format="reference|color" name="ptrHeaderSubTextColor"/>
+
+        
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr>
+
+        
+        <attr format="reference|boolean" name="ptrShowIndicator"/>
+
+        
+        <attr format="reference" name="ptrDrawable"/>
+
+        
+        <attr format="reference" name="ptrDrawableStart"/>
+
+        
+        <attr format="reference" name="ptrDrawableEnd"/>
+
+        
+        <attr format="reference|boolean" name="ptrOverScroll"/>
+
+        
+        <attr format="reference" name="ptrHeaderTextAppearance"/>
+
+        
+        <attr format="reference" name="ptrSubHeaderTextAppearance"/>
+
+        
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+            <flag name="custom" value="0x2"/>
+        </attr>
+
+        
+        <attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/>
+
+        
+        <attr format="reference|boolean" name="ptrListViewExtrasEnabled"/>
+
+        
+        <attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/>
+
+        
+        <attr format="reference|color" name="ptrAdapterViewBackground"/>
+        <attr format="reference" name="ptrDrawableTop"/>
+        <attr format="reference" name="ptrDrawableBottom"/>
+    </declare-styleable>
+    <declare-styleable name="RoundAngleImageView">
+		<attr format="dimension" name="roundWidth"/>
+		<attr format="dimension" name="roundHeight"/>
+	</declare-styleable>
+    <declare-styleable name="TextAppearanceCompatStyleable">
+        <attr name="android:textSize"/>
+    </declare-styleable>
+</resources>

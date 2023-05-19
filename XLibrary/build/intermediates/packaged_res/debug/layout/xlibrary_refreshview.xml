@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="80dp">
+  <RelativeLayout
+  	android:layout_width="match_parent"
+  	android:layout_height="80dp">
+  	<ImageView
+  		android:id="@+id/ivPullArrow"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginLeft="30dp"
+  		android:contentDescription="@string/app_name"
+  		android:layout_alignParentLeft="true"
+  		android:layout_marginTop="6dp"
+  		android:src="@drawable/image_pulltorefresh_gray"/>
+  	<ProgressBar
+  		android:id="@+id/pbRefresh"
+  		android:layout_width="24dp"
+  		android:layout_height="24dp"
+ 	 	android:indeterminate="true"
+ 	 	android:layout_marginLeft="30dp"
+ 	 	android:layout_alignParentLeft="true"
+  		android:layout_marginTop="26dp"/>
+	<TextView
+  		android:id="@+id/tvRefresh"
+  		android:layout_width="match_parent"
+ 	 	android:layout_height="wrap_content"
+ 	 	android:gravity="center_horizontal"
+ 	 	android:textSize="13sp"
+  		android:textColor="#1B1B1B"
+  		android:shadowColor="#ff1c4400"
+  		android:layout_marginTop="20dp"/>
+  	<TextView
+  		android:id="@+id/tvTime"
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:gravity="center_horizontal"
+  		android:textSize="12sp"
+  		android:textColor="#7D7D7D"
+  		android:shadowColor="#ff1c4400"
+  		android:layout_below="@id/tvRefresh"/>
+  </RelativeLayout>
+</LinearLayout>

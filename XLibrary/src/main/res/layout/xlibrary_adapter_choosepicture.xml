@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.xbcx.view.SquareImageView 
+        android:id="@+id/ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"/>
+
+    <ImageView 
+        android:id="@+id/ivChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_check_blue"
+        android:layout_gravity="right"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"/>
+</FrameLayout>

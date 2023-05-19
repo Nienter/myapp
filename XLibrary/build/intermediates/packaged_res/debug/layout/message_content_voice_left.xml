@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+
+    <ProgressBar
+        android:id="@+id/pbDownload"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/tvVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="right"
+        android:textColor="#1B1B1B"
+        android:textIsSelectable="false"
+        android:textSize="13sp" />
+
+</LinearLayout>

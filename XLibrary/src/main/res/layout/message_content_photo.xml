@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.xbcx.im.ui.AdjustImageView 
+        android:id="@+id/ivPhoto"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"/>
+    
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/ivPhoto"
+        android:layout_alignRight="@id/ivPhoto"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:progressDrawable="@drawable/layer_progress_photodownload"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background" android:drawable="@drawable/chat_img_loading_bg"/>
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/chat_img_loading"
+            android:clipOrientation="horizontal"/>
+    </item>
+
+</layer-list>

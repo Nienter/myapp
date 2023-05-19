@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView 
+        android:id="@+id/ivVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"/>
+    
+    <ImageView 
+        android:id="@+id/ivPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ivVideo"
+        android:layout_alignRight="@id/ivVideo"
+        android:layout_alignTop="@id/ivVideo"
+        android:layout_alignBottom="@id/ivVideo"
+        android:scaleType="center"
+        android:src="@drawable/msg_video"
+        android:contentDescription="@string/app_name"/>
+    
+    <TextView 
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ivVideo"
+        android:layout_alignRight="@id/ivVideo"
+        android:paddingBottom="2dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:textSize="14sp"
+        android:textColor="#ffffffff"
+        android:textIsSelectable="false"/>
+    
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_alignLeft="@id/ivVideo"
+        android:layout_alignRight="@id/ivVideo"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="6dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:progressDrawable="@drawable/layer_progress_photodownload"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewChatRoomBar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="#99000000" >
+    <TextView 
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#ffffffff"
+        android:textSize="14sp"
+        android:layout_marginLeft="6dp"/>
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/arrow"
+        android:layout_marginRight="10dp"/>
+    <TextView 
+        android:id="@+id/btnLeave"
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:textColor="#ffffffff"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:background="#ff341415"/>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msg_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btnSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/msg_bar_text"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/btnPressTalk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/msg_bar_talking"
+            android:contentDescription="@string/app_name"
+            android:soundEffectsEnabled="false"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/viewInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/etTalk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="42dp"
+                android:background="@drawable/msg_bar_input_android"
+                android:hint=""
+                android:textSize="14sp"
+                android:textColor="@color/normal_black"
+                android:maxHeight="80dp" />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/etTalk"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/etTalk"
+                android:background="@drawable/msg_bar_input_sent_android" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btnExpression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/msg_bar_emotion"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/msg_bar_more"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewExpressionSet"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:background="#ffebebeb" >
+        <LinearLayout 
+            android:id="@+id/viewExpressionTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+        </LinearLayout>
+
+        <FrameLayout 
+            android:id="@+id/viewExpressionContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/viewExpressionTab">
+            
+        </FrameLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/viewMoreSet"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/msg_more_bg" >
+        <androidx.viewpager.widget.ViewPager
+        	android:id="@+id/vpMore"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:paddingBottom="23dp" />
+        <com.xbcx.view.PageIndicator 
+            android:id="@+id/piMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="8dp"/>
+    </FrameLayout>
+
+</LinearLayout>

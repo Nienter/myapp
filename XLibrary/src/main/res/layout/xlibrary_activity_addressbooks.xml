@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/xlibrary_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:paddingRight="22dp" >
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/search_input"
+                android:hint="@string/addressbooks_search_friend" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="13dp"
+                android:src="@drawable/search_icon" />
+
+            <ImageView
+                android:id="@+id/ivClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:contentDescription="@string/app_name"
+                android:paddingRight="13dp"
+                android:src="@drawable/search_clear" />
+        </FrameLayout>
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+        	android:id="@+id/prlv"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_below="@id/view"/>
+
+        <com.xbcx.view.SectionIndexerView
+            android:id="@+id/si"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#000000ff"/>
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" >
+
+            <TextView 
+                android:id="@+id/tvLetter"
+            	android:layout_width="50dp"
+            	android:layout_height="50dp"
+            	android:background="#cc000000"
+            	android:layout_gravity="center"
+            	android:gravity="center"
+            	android:textColor="#ffffffff"
+            	android:textSize="20sp"
+            	android:visibility="gone"/>
+        </FrameLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>
